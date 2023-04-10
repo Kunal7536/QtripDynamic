@@ -2,7 +2,7 @@ import config from "../conf/index.js";
 
 async function init() {
   //Fetches list of all cities along with their images and description
-  let cities = await fetchCities("http://65.0.193.151:8082/cities");
+  let cities = await fetchCities("http://13.232.224.252:8082/cities");
 
   //Updates the DOM with the cities
   cities.forEach((key) => {
